@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Lora|Montserrat');
+
+body {
+  margin-top: 10%;
+  background-color: #282c37;
+}
+
+.well {
+  color: #282c37;
+  background-color: #d9e1e8;
+  height: auto;
+}
+
+.quote {
+  text-align: left;
+}
+  .fa-quote-left {
+    float: left;
+    font-size: 3em;
+    margin-right: 15px;
+  }
+    #qText {
+      font-family: Montserrat, sans-serif;
+      font-size: 1.6em;
+    }
+
+.author {
+  text-align: right;
+}
+  #qAuthor {
+    font-family: Lora, serif;
+    font-size: 1.3em;
+  }
+
+.buttons {
+  display: block;
+  margin: 10px auto 10px auto;
+}
+
+.button {
+  height: 33px;
+  border-radius: 3px;
+  color: #d9e1e8;
+  background-color: #282c37;
+  padding: 7px 15px 7px 15px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-family: Montserrat, sans-serif;
+  &:visited {
+    color: #d9e1e8;
+  }
+  &:hover {
+    border: 1.5px solid #282c37;
+    background-color: #d9e1e8;
+    color: #282c37;
+    height: 33px;
+  }
+}
+
+#new {
+  float: right;
+  text-decoration: none;
+}
+
+#tweet, #fb, #tumblr {
+  float: left;
+  margin-right: 7px;
+}
+
+footer > p {
+  color: #d9e1e8;
+}
