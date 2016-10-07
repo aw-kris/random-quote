@@ -1,0 +1,1 @@
+Web page showing random quote using forismatic API.
